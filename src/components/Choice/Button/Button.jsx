@@ -23,7 +23,7 @@ const Image = styled.img`
 const Button = ({ image, click, play }) => {
   return (
     <Btn onClick={play}>
-      <Image src={`/img/${image}`} alt="variable" />
+      <Image src={`img/${image}`} alt="variable" />
     </Btn>
   )
 }

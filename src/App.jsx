@@ -110,7 +110,7 @@ function App() {
             {
               myChoice && (
                 <div className={gameClasses.join(" ")}>
-                  {play && <img src={`/img/${myChoice}.png`} className='game__image me' />}
+                  {play && <img src={`img/${myChoice}.png`} className='game__image me' />}
                   <div className={cn('game__decoration me__decore', result === 'You won' && 'is-active')}></div>
 
                   {
@@ -118,7 +118,7 @@ function App() {
                       <>
                         <h2 className='game__text'>{result}</h2>
 
-                        {play && <img src={`/img/${computerChoice}.png`} className='game__image computer' />}
+                        {play && <img src={`img/${computerChoice}.png`} className='game__image computer' />}
                         <div className={cn('game__decoration computer__decore', result === 'You lose' && 'is-active')}></div>
                       </>
                     )
