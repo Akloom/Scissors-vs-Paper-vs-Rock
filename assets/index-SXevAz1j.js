@@ -55,7 +55,7 @@ Error generating stack: `+o.message+`
 `,Om=ce.img`
   width: 100%;
   height: 300px;
-`,Go=({image:e,click:t,play:n})=>z.jsx(Im,{onClick:n,children:z.jsx(Om,{src:`/img/${e}`,alt:"variable"})}),jm=ce.div`
+`,Go=({image:e,click:t,play:n})=>z.jsx(Im,{onClick:n,children:z.jsx(Om,{src:`img/${e}`,alt:"variable"})}),jm=ce.div`
   margin-top: 40px;
   display: flex;
   align-items: center;
